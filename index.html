@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kabupaten Jember</title>
 
-    <link rel="stylesheet" href="assets/styles/style.css">
+    <link href="assets/img/logo-jember.png" rel="icon">
+    <title>Kabupaten Jember</title>
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    
 </head>
 <body>
     <header>
@@ -16,60 +19,154 @@
         </div>
         <nav>
             <ul>
-                <li><a href="https://id.wikipedia.org/wiki/Kota_Bandung#Sejarah">Sejarah</a></li>
-                <li><a href="https://id.wikipedia.org/wiki/Kota_Bandung#Geografis">Geografis</a></li>
-                <li><a href="https://id.wikipedia.org/wiki/Kota_Bandung#Pariwisata_dan_budaya">Wisata</a></li>
+                <li><a href="https://id.wikipedia.org/wiki/Kabupaten_Jember#Sejarah">Sejarah</a></li>
+                <li><a href="https://id.wikipedia.org/wiki/Kabupaten_Jember#Geografis">Geografis</a></li>
+                <li><a href="https://id.wikipedia.org/wiki/Kabupaten_Jember#Pariwisata">Wisata</a></li>
             </ul>
         </nav>
     </header>
-     <!-- Div Version -->
+
     <main>
+        <div class="container">
+            <div class="content-slide">
+                <div class="imgslide fade">
+                    <img src="assets/img/kantor-jember.jpg" alt="">
+                </div>
+    
+                <div class="imgslide fade">
+                    <img src="assets/img/kantour-jember.jpg" alt="">
+                </div>
+    
+                <div class="imgslide fade">
+                    <img src="assets/img/alun-jember.jpg" alt="">
+                </div>
+    
+                <a class="prev" onClick="nextslide(-1)">&#10094;</a>
+                <a class="next" onClick="nextslide(1)">&#10095;</a> 
+            </div>
+    
+            <div class="page">
+                <span class="dot" onClick="dotslide(1)"></span>
+                <span class="dot" onClick="dotslide(2)"></span>
+                <span class="dot" onClick="dotslide(3)"></span>
+            </div>
+    
+        </div>
+        
         <div id="content">
             <article id="sejarah" class="card">
                 <h2>Sejarah</h2>
-                <img src="assets/image/history.jpg" class="featured-image" alt="sejarah">
-                <p>Kata Bandung berasal dari kata bendung atau bendungan karena terbendungnya sungai Citarum oleh lava Gunung Tangkuban Parahu yang lalu membentuk telaga. Legenda yang diceritakan oleh orang-orang tua di Bandung mengatakan bahwa nama Bandung diambil dari sebuah kendaraan air yang terdiri dari dua perahu yang diikat berdampingan yang disebut perahu bandung yang digunakan oleh Bupati Bandung, R.A. Wiranatakusumah II,
-                untuk melayari Ci Tarum dalam mencari tempat kedudukan kabupaten yang baru untuk menggantikan ibu kota yang lama di Dayeuhkolot. </p>
-                <p>Berdasarkan filosofi Sunda, kata Bandung juga berasal dari kalimat Nga-Bandung-an Banda Indung, yang merupakan kalimat sakral dan luhur karena mengandung nilai ajaran Sunda. Nga-Bandung-an artinya menyaksikan atau bersaksi. Banda adalah segala sesuatu yang berada di alam hidup yaitu di bumi dan atmosfer, baik makhluk hidup maupun benda mati. Sinonim dari banda adalah harta. Indung berarti Ibu atau Bumi, disebut juga sebagai Ibu Pertiwi tempat Banda berada.</p>
+                <img src="assets/img/sejarah-jember.jpg" class="featured-image" alt="sejarah">
+                <p>berdasarkan Staatsblad Nomor 322 tanggal 9 Agustus 1928, yang mulai berlaku tanggal 1 Januari 1929. Pemerintah Hindia Belanda telah mengeluarkan ketentuan tentang penataan kembali pemerintah desentralisasi di wilayah Provinsi Jawa Timur, antara lain dengan menunjuk Regenschap Djember sebagai masyarakat kesatuan hukum yang berdiri sendiri. Secara resmi ketentuan tersebut diterbitkan oleh Sekretaris Umum Pemerintah Hindia Belanda (De Aglemeene Secretaris) G.R. Erdbrink, 21 Agustus 1928. </p>
+                <p>Pemerintah Regenschap Jember yang semula terbagi dalam tujuh Wilayah Distrik, pada tanggal 1 Januari 1929 sejak berlakunya Staatsblad No. 46/1941 tanggal 1 Maret 1941 Wilayah Distrik dipecah menjadi 25 Onderdistrik, yaitu: </p>
+                <ul>
+                    <li>Distrik Jember, meliputi onderdistrik Jember, Wirolegi, dan Arjasa.</li>
+                    <li>Distrik Kalisat, meliputi onderdistrik Kalisat, Ledokombo, Sumberjambe, dan Sukowono.</li> 
+                    <li>Distrik Rambipuji, meliputi onderdistrik Rambipuji, Panti, Mangli, dan Jenggawah</li>
+                    <li>Distrik Mayang, meliputi onderdistrik Mayang, Silo, Mumbulsari, dan Tempurejo.</li>
+                    <li>Distrik Tanggul meliputi onderdistrik Tanggul, Sumberbaru, dan Bangsalsari.</li>
+                    <li>Distrik Puger, meliputi onderdistrik Puger, Kencong Gumukmas, dan Umbulsari.</li>
+                    <li>Distrik Wuluhan, meliputi onderdistrik Wuluhan, Ambulu, dan Balung.</li>
+                </ul>
+                <p>Berdasarkan Undang Undang No. 12/1950 tentang Pemerintah Daerah Kabupaten di Jawa Timur, ditetapkan pembentukan Daerah-daerah Kabupaten dalam lingkungan Provinsi Jawa Timur (dengan Perda), antara lain Daerah Kabupaten Jember ditetapkan menjadi Kabupaten Jember.</p>
+                <p>Bersamaan dengan pembentukan Kota Administratif Jember, wilayah Kewedanan Jember bergeser pula dari Jember ke Arjasa dengan wilayah kerja meliputi Arjasa, Pakusari, dan Sukowono yang sebelumnya masuk Distrik Kalisat. Dengan adanya perubahan-perubahan tersebut, pada perkembangan berikutnya, secara administratif Kabupaten Jember saat itu terbagi menjadi tujuh Wilayah Pembantu Bupati, satu wilayah Kota Administratif, dan 31 Kecamatan. </p>
             </article>
          
             <article id="geografis" class="card">
                 <h2>Geografis</h2>
-                <img src="assets/image/geografis.jpg" class="featured-image" alt="geografis">
-                <p>Kota Bandung dikelilingi oleh pegunungan, sehingga bentuk morfologi wilayahnya bagaikan sebuah mangkok raksasa, secara geografis kota ini terletak di tengah-tengah provinsi Jawa Barat, serta berada pada ketinggian ±768 m di atas permukaan laut, dengan titik tertinggi di berada di sebelah utara dengan ketinggian 1.050 meter di atas permukaan laut dan sebelah selatan merupakan kawasan rendah dengan ketinggian 675 meter di atas permukaan laut.</p>
-         
-                <p>Kota Bandung dialiri dua sungai utama, yaitu Sungai Cikapundung dan Sungai Citarum beserta anak-anak sungainya yang pada umumnya mengalir ke arah selatan dan bertemu di Sungai Citarum. Dengan kondisi yang demikian, Bandung selatan sangat rentan terhadap masalah banjir terutama pada musim hujan.</p>
+                <img src="assets/img/geografi-jember.jpg" class="featured-image" alt="geografis">
+                <p>Secara geografis Kabupaten Jember terletak pada posisi 6027’29” s/d 7014’35” Bujur Timur dan 7059’6” s/d 8033’56” Lintang Selatan berbentuk dataran ngarai yang subur pada bagian Tengah dan Selatan, dikelilingi pegunungan yang memanjang sepanjang batas Utara dan Timur serta Samudra Indonesia sepanjang batas Selatan dengan Pulau Nusa Barong yang merupakan satu-satunya pulau yang ada di wilayah Kabupaten Jember. Kabupaten Jember memiliki total luas wilayah sebesar 3.306,689 km2 dengan ketinggian antara 0–3.330 mdpl. Bagian selatan wilayah Kabupaten Jember adalah dataran rendah dengan titik terluarnya adalah Pulau Nusa Barong. Pada kawasan ini terdapat Taman Nasional Meru Betiri yang berbatasan dengan wilayah administratif Kabupaten Banyuwangi. Bagian barat laut (berbatasan dengan Kabupaten Probolinggo adalah pegunungan, bagian dari Pegunungan Iyang, dengan puncaknya Gunung Argopuro (3.088 m). Bagian timur merupakan bagian dari rangkaian Dataran Tinggi Ijen. Jember memiliki beberapa sungai antara lain Sungai Bedadung yang bersumber dari Pegunungan Iyang di bagian Tengah, Sungai Mayang yang persumber dari Pegunungan Raung di bagian timur, dan Sungai Bondoyudo yang bersumber dari Pegunungan Semeru di bagian barat.</p>
             </article>
          
             <article id="wisata" class="card">
                 <h2>Wisata</h2>
-                <p>Sejak dibukanya Jalan Tol Cipularang, kota Bandung telah menjadi tujuan utama dalam menikmati liburan akhir pekan terutama dari masyarakat yang berasal dari Jakarta sekitarnya. Selain menjadi kota wisata belanja, kota Bandung juga dikenal dengan sejumlah besar bangunan lama berarsitektur peninggalan Belanda.</p>
+                <p>Tempat wisata di Jember menghadirkan berbagai macam tempat wisata yang sangat komplit. Wisata alam memang masih sangat mendominasi, namun bukan berarti Jember tidak memiliki wisata yang lainnya.</p>
                 <section>
-                    <h3>Farm House Lembang</h3>
-                    <img src="assets/image/farm-house.jpg" class="featured-image" alt="farm house">
-                    <p>Berada di jalur utama Bandung-Lembang, Farm House menjadi objek wisata yang tidak pernah sepi pengunjung. Selain karena letaknya strategis, kawasan ini juga menghadirkan nuansa wisata khas Eropa. Semua itu diterapkan dalam bentuk spot swafoto Instagramable.</p>
+                    <h3>Pantai Payangan</h3>
+                    <img src="assets/img/pantai-payangan.jpg" class="featured-image" alt="pantai payangan">
+                    <p>Pantai ini terletak di Kecamatan Ambulu. Pesona pantai ini akan sangat indah jika dilihat dari atas bukit yang terletak di sekitar pantai. Selain dihiasi beberapa bukit, pantai ini juga dihiasi oleh bebatuan yang berbaris rapi di tepi pantai. Banyak wisatawan dari dalam maupun luar kota yang datang untuk berwisata. Sebagian besar dari mereka menginap atau datang pada tengah malam untuk dapat melihat sunrise dari atas bukit.</p>
                 </section>
+                <br>
                 <section>
-                    <h3>Observatorium Bosscha</h3>
-                    <img src="assets/image/bosscha.jpg" class="featured-image" alt="bosscha">
-                    <p>Memiliki beberapa teleskop, antara lain, Refraktor Ganda Zeiss, Schmidt Bimasakti, Refraktor Bamberg, Cassegrain GOTO, dan Teleskop Surya. Refraktor Ganda Zeiss adalah jenis teleskop terbesar untuk meneropong bintang. Benda ini diletakkan pada atap kubah sehingga saat teropong digunakan, atap tersebut harus dibuka. Observatorium Bosscha boleh dikunjungi oleh siapapun, tanpa tiket. Namun, bagi yang ingin menggunakan teleskop Zeiss, wajib mendaftarkan diri. Untuk instansi atau lembaga pendidikan, diberikan jadwal hari Selasa sampai Jumat. Sementara itu, kunjungan individu dibuka setiap hari Sabtu.</p>
+                    <h3>Pantai Watu Ulo</h3>
+                    <img src="assets/img/pantai-watu-ulo.jpg" class="featured-image" alt="pantai watu ulo">
+                    <p>Pantai yang terletak sekitar 25 Km dari Kecamatan Ambulu dan pada saat hari-hari libur biasanya banyak anak-anak muda dan rombongan keluarga yang pergi kesana untuk berlibur, apalagi saat hari-hari besar dan hari raya. Mereka biasanya pergi ke sana bersama-sama dengan keluarga mereka masing-masing menggunakan angkutan umum atau kendaraan pribadi. Pantai Watu Ulo memiliki panorama yang mempesona menghadap lautan Indonesia dengan deretan batu karang menyerupai ular.</p>
+                </section>
+                <br>
+                <section>
+                    <h3>Pantai Papuma</h3>
+                    <img src="assets/img/pantai-papuma.jpg" class="featured-image" alt="pantai papuma">
+                    <p>Pantai dengan pesona pasir putihnya dan Wisata Sejarah berupa peninggalan Gua Jepang. Pantai ini dikenal juga dengan nama Pantai Pasir Putih Malikan. Dinamakan Papuma karena pantai ini berpasir putih dengan hamparan batu-batu yang bila diterjang ombak lalu saling terberai membalik.[15] Pantai Papuma adalah pantai yang sangat eksotik bila dibandingkan dengan pantai pantai yang ada di Jawa Timur, karena memiliki keindahan pantai dan laut yang menawan dengan pantai yang hijau kebiruan menjadikan tempat wisata ini banyak dikunjungi baik dari warga Jember sendiri juga dari kabupaten lain.</p>
                 </section>
             </article>
-    
-            <aside>
-                <article class="card">
-                    <h2>Kota Jember</h2>
-                        <p>Kota Tembakau</p>
-                        <figure>
-                        <img src="assets/images/logo-jember.png" class="profile">
-                        <figcaption>Lambang</figcaption>
-                        </figure>
-                </article>
-            </aside>
         </div>
+        <aside>
+            <article class="card">
+                <h2>Kota Jember</h2>
+                    <p align="center">Kota penghasil tembakau Jawa Timur</p>
+                    <figure>
+                    <img src="assets/img/logo-jember.png" class="profile img">
+                    <figcaption>Lambang</figcaption>
+                    </figure>
+            </article>
+            <article class="profile card">
+                <section>
+                   <h3>Informasi Lainnya</h3>
+                   <table>
+                      <tr>
+                         <th>Negara</th>
+                         <td>Indonesia</td>
+                      </tr>
+                      <tr>
+                         <th>Hari jadi</th>
+                         <td>1 Januari 1929</td>
+                      </tr>
+                      <tr>
+                         <th>Bahasa Daerah</th>
+                         <td>Jawa, Madura, Osing</td>
+                      </tr>
+                         <tr>
+                         <th>Kode Telepon</th>
+                         <td>+62 0331</td>
+                      </tr>
+                  </table>
+                </section>
+            </article>
+            <article class="profile card">
+                <h4>Author</h4>
+                    <figure>
+                    <img src="assets/img/profile.jpg" class="profile">
+                    </figure>
+                    <table>
+                        <tr>
+                           <th>Nama</th>
+                           <td>Ahmad Masrud Mubarok</td>
+                        </tr>
+                        <tr>
+                            <th>Asal</th>
+                            <td>Malang, Jawa Timur</td>
+                        </tr>
+                        <tr>
+                            <th>Pekerjaan</th>
+                            <td>Web Developer</td>
+                        </tr>
+                        <tr>
+                            <th>Email</th>
+                            <td>ahmad.masrud@rschooltoday.com</td>
+                        </tr>
+                        <tr>
+                            <th>No Telp</th>
+                            <td>(+62) 8997843832</td>
+                        </tr>
+                    </table>
+            </article>
+        </aside>
     </main>
+
     <footer>
-        <center>Belajar Dasar Pemrograman Web &copy; 2019, Dicoding Academy</center>
+        <center>Submission Belajar Dasar Pemrograman Web &copy; 2022, Dicoding Academy</center>
     </footer>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
